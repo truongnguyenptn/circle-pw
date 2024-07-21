@@ -16,8 +16,6 @@
 
 ## About the project
 
-Submission for [Bounty Challenge 2 - Build Your Wallet](https://earn.stackup.dev/campaigns/simplify-building-on-the-blockchain-with-circle-and-usdc/quests/bounty-challenge-2-build-your-wallet-592b).
-
 ## Features
 
 - Wallet Creation - Users can easily create new wallet.
