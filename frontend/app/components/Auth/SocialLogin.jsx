@@ -35,7 +35,7 @@ export function FacebookButton (props) {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'facebook',
       options: {
-        redirectTo: process.env.NEXT_PUBLIC_HOST
+        redirectTo: "https://circle-pw.vercel.app/"
       }
     })
     error &&
