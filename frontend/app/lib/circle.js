@@ -5,7 +5,7 @@ import {
 import { createSupabaseServerClient } from './supabase'
 
 export const circleClient = initiateUserControlledWalletsClient({
-  apiKey: process.env.CIRCLE_API_KEY
+  apiKey: process.env.NEXT_PUBLIC_CIRCLE_API_KEY
 })
 
 /**
