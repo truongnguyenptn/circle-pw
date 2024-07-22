@@ -15,7 +15,7 @@ import Providers from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'The Wallet App',
+  title: 'Circle wallet',
   description: 'A web3 wallet app powered by Circle'
 }
 

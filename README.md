@@ -3,7 +3,7 @@
     <img src="frontend/app/favicon.ico" alt="Logo" width="40" height="auto" />
   </a>
 
-  <h1 align="center">The Wallet App</h1>
+  <h1 align="center">Circle wallet</h1>
 
   <p align="center">
     A complete Web 3 wallet solution utilizing Circle’s Programmable Wallets.
@@ -14,7 +14,7 @@
 
 ## Overview
 
-The Wallet App is a robust Web 3 wallet designed with Circle’s Programmable Wallets, providing a seamless way for users to manage their digital assets.
+Circle wallet is a robust Web 3 wallet designed with Circle’s Programmable Wallets, providing a seamless way for users to manage their digital assets.
 
 ## Key Features
 

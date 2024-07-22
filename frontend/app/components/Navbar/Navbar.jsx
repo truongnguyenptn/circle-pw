@@ -22,13 +22,13 @@ export function Navbar () {
           <Group>
             <Link href="/">
               <Group>
-                <IconWallet size={30} title="The Wallet App" />
+                <IconWallet size={30} title="Circle wallet" />
                 <Title
                   size={{ base: 'md', sm: 'xl' }}
                   className="no-underline"
                   order={3}
                 >
-                  The Wallet App
+                  Circle wallet
                 </Title>
               </Group>
             </Link>
