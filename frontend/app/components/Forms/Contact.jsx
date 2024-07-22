@@ -34,7 +34,7 @@ export function ContactForm () {
       const { error } = await supabase
         .from('contacts')
         .insert({ name, address })
-
+      console.log(error)
       error &&
         notifications.show({
           color: 'red',
