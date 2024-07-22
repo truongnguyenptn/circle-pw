@@ -50,7 +50,7 @@ export function WalletForm ({ createUserPin }) {
       })
       close()
       form.reset()
-      queryClient.refetchQueries({ queryKey: ['wallets'] })
+      queryClient.invalidateQueries({ queryKey: ['wallets'] })
     })
   }
 
