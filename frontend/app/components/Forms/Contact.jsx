@@ -42,7 +42,7 @@ export function ContactForm () {
           message: error.message
         })
 
-      queryClient.refetchQueries({ queryKey: ['contacts'] })
+      queryClient.invalidateQueries({ queryKey: ['contacts'] })
       close()
       form.reset()
     } catch (error) {
@@ -51,6 +51,7 @@ export function ContactForm () {
         title: 'Error saving contact, please try again',
         message: error.message
       })
+      console.error(error)
     }
   }
 
